@@ -12,4 +12,4 @@ Tools Used: Python (Pandas, Scikit-Learn, XGBoost), Tableau.
 **Repository Content:**
 
 Final_COFM.ipynb: Jupyter notebook with full data pipeline and model.
-Dashboard 1.png: Tableau dashboard visualization.
+Dashboard 1.png: Tableau dashboard visualization. ([https://public.tableau.com/app/profile/supriyo.banerjee8197/viz/CrudeOil_ForecastingModel_Dashboard/Dashboard1?publish=yes])
