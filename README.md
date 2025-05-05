@@ -1,15 +1,25 @@
-# Crude-Oil-Forecasting-Model
-This project forecasts crude oil prices (WTI and Brent) using machine learning techniques based on key market indicators.
+# 🛢️ Crude Oil Price Forecasting Model (WTI)
 
-**Highlights:**
+This repository contains a machine learning-based forecasting pipeline to predict West Texas Intermediate (WTI) crude oil prices using ensemble models (Random Forest & XGBoost), enriched with macroeconomic indicators and geopolitical context. Interactive Tableau dashboards further visualize the data, trends, and model performance.
 
-Built Random Forest and XGBoost models to forecast crude oil prices.
-Engineered features from OPEC production data, futures positioning (CFTC), and news sentiment.
-Achieved strong model performance (low RMSE, MAE).
-Designed a Tableau dashboard visualizing price trends, model errors, and feature importance.
-Tools Used: Python (Pandas, Scikit-Learn, XGBoost), Tableau.
+---
 
-**Repository Content:**
+## 📌 Project Objectives
 
-Final_COFM.ipynb: Jupyter notebook with full data pipeline and model.
-Dashboard 1.png: Tableau dashboard visualization. ([https://public.tableau.com/app/profile/supriyo.banerjee8197/viz/CrudeOil_ForecastingModel_Dashboard/Dashboard1?publish=yes])
+- Forecast short-term WTI crude oil prices using supervised learning techniques.
+- Evaluate the impact of macroeconomic events (OPEC decisions, interest rate shifts, geopolitical tensions) on price movement.
+- Visualize trends, prediction intervals, error distributions, and production patterns through dashboards.
+
+---
+
+## 📁 Repository Structure
+
+```bash
+├── Final_COFM-2.ipynb          # Main Jupyter notebook: data prep, modeling, forecasting
+├── /screenshots/               # Static images of Tableau dashboards
+│   ├── Dashboard 1-2.png
+│   └── Dashboard 2-2.png
+├── /dashboards/                # Tableau Public workbook file
+│   └── CrudeOilForecast.twbx
+├── README.md                   # Project documentation (this file)
+
