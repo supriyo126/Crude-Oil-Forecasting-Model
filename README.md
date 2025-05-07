@@ -15,11 +15,11 @@ This repository contains a machine learning-based forecasting pipeline to predic
 ## 📁 Repository Structure
 
 ```bash
-├── Final_COFM-2.ipynb          # Main Jupyter notebook: data prep, modeling, forecasting
+├── Final_COFM_Notebook.ipynb          # Main Jupyter notebook: data prep, modeling, forecasting
 ├── /screenshots/               # Static images of Tableau dashboards
-│   ├── Dashboard 1-2.png
-│   └── Dashboard 2-2.png
+│   ├── COFM_DashboarD_1.png
+│   └── COFM_Dashboard_2.png
 ├── /dashboards/                # Tableau Public workbook file
-│   └── CrudeOilForecast.twbx
+│   └── CrudeOilForecasting_Dashboard.twbx
 ├── README.md                   # Project documentation (this file)
 
